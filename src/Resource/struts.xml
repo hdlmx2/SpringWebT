@@ -9,7 +9,9 @@
     <constant name="struts.devMode" value="true"/>
     <package name="default" namespace="/" extends="struts-default">
         <action name="person-save" class="personAction">
-
+<result name="success">
+    /success.jsp
+</result>
         </action>
     </package>
 </struts>
